@@ -6,7 +6,7 @@ from PIL import Image
 from openai import OpenAI
 
 # Initialize OpenAI client with your API key (hardcoded)
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="")
 
 def convert_to_png_and_encode(file) -> str:
     """
